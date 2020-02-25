@@ -45,7 +45,7 @@ body {
   transition: transform 0.4s ease;
   background: rgb(42, 30, 107);
   background: var(--sidebar-bg,
-  radial-gradient(circle, rgba(42, 30, 107, 1) 0%, rgba(35, 37, 46, 1) 100%));
+  radial-gradient(circle, rgb(174, 238, 238) 0%, rgb(70, 173, 173) 100%));
 
   a {
     @include sidebar-icon;
@@ -66,7 +66,7 @@ body {
     height: 20%;
     &:hover {
       .nav-link {
-        color: #f8f9facf;
+        color: #604C3D;
       }
     }
     &.active {
@@ -224,12 +224,12 @@ body {
 #site-title {
   text-align: center;
   a {
-    color: #b6b6b6;
+    color: #8A6247;
     font-weight: 900;
     font-size: 1.5rem;
     letter-spacing: .5px;
     &:hover {
-      color: #fff;
+      color: #8A6247;
       text-decoration: none;
     }
   }
@@ -238,7 +238,7 @@ body {
 #site-subtitle {
   font-size: 95%;
   text-align: center;
-  color: #828282;
+  color: #6A503E;
   line-height: 1.2rem;
   word-spacing: 1px;
   margin: .5rem 1.5rem 2rem 1.5rem;
